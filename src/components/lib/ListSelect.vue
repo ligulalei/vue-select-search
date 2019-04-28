@@ -5,18 +5,18 @@
 </template>
 <script>
 export default {
-    data () {
+  name: 'ListSelect',
+  data () {
+  },
+  watch: {
 
-    },
-    watch: {
+  },
+  computed: {
 
-    },
-    computed: {
+  },
+  methods: {
 
-    },
-    methods: {
-
-    },
+  }
 }
 </script>
 <style>
