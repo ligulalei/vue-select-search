@@ -1,6 +1,6 @@
 <template>
     <div>
-        <list-select :options="options">
+        <list-select :list="options">
         </list-select>
     </div>
 </template>
