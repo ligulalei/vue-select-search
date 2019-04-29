@@ -12,7 +12,25 @@ export default {
     return {
       options: [
                 { value: 'a', text: 'option text' },
-                { value: 'b', text: 'option text' }
+                { value: 'b', text: 'option text' },
+                { value: 'c', text: 'option text' },
+                { value: 'd', text: 'option text' },
+                { value: 'e', text: 'option text' },
+                { value: 'f', text: 'option text' },
+                { value: 'g', text: 'option text' },
+                { value: 'h', text: 'option text' },
+                { value: 'i', text: 'option text' },
+                { value: 'j', text: 'option text' },
+                { value: 'k', text: 'option text' },
+                { value: 'l', text: 'option text' },
+                { value: 'm', text: 'option text' },
+                { value: 'n', text: 'option text' },
+                { value: 'o', text: 'option text' },
+                { value: 'p', text: 'option text' },
+                { value: 'q', text: 'option text' },
+                { value: 'r', text: 'option text' },
+                { value: 's', text: 'option text' },
+                { value: 't', text: 'option text' }
       ]
     }
   },

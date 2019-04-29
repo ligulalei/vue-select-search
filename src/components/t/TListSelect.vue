@@ -1,21 +1,23 @@
 <template>
 <div>
-
+    <input 
+    :value='searchValue'
+    @input="searchValue = $event.target.value"
+    />
     <template v-for="(option,index) in showOptions">
         <div :key="index">
-            {{option.text}}{{index}}
+            {{option.value}}-{{option.text}}
         </div>
     </template>
  </div>
 </template>
 <script>
+import { commonMixin } from '../lib/mixins'
 export default {
-  props: {
-    value: {
-      type: [String, Number, Object, Boolean]
-    },
-    options: {
-      type: [Array]
+  mixins: [commonMixin],
+  data () {
+    return {
+      searchValue: ''
     }
   },
   watch: {
@@ -23,7 +25,16 @@ export default {
   },
   computed: {
     showOptions () {
-      return this.options
+      if (this.searchValue) {
+        return this.options.filter((option) => {
+          console.log('*')
+          console.log(option.text)
+          return this.filterPredicate(option.value, this.searchValue)
+        })
+      } else {
+        console.log(this.searchValue)
+        return this.options
+      }
     }
   },
   methods: {

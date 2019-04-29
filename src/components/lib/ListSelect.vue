@@ -5,8 +5,7 @@ export default {
   render: function (createElement) {
     return createElement(TListSelect, {
       props: {
-        options: this.options,
-        hi: '333333333333333333333'
+        options: this.options
       }
     })
   },
