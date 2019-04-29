@@ -2,6 +2,7 @@
 
 > vue-select-search
 
+[demo](https://ligulalei.github.io/vue-select-search/#/listselect)
 ## Build Setup
 
 ``` bash
