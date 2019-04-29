@@ -20,4 +20,4 @@ npm run build --report
 ```
 
 #### 关于[李古拉雷]
-<div align=center>![image](https://ligulalei.github.io/vue-select-search/static/images/ligulalei.jpg)</div>
+<div align=center> ![微信号:李古拉雷](https://ligulalei.github.io/vue-select-search/static/images/ligulalei.jpg) </div>
