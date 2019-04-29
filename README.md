@@ -19,5 +19,5 @@ npm run build
 npm run build --report
 ```
 
-#### 加关注
+#### 关于[李古拉雷]
 ![image](https://ligulalei.github.io/vue-select-search/static/images/ligulalei.jpg)
