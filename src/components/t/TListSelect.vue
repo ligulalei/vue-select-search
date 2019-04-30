@@ -77,6 +77,7 @@ export default {
   padding:0;
   outline: none;
   height:30px;
+  border: 1px solid #ccc;
 }
 .showOptionList{
   max-height:200px;
@@ -84,6 +85,7 @@ export default {
   width:300px;
   overflow-y: auto;
   text-align:left;
+  border:1px solid #eee;
 }
 .showOptionList .option{
   cursor: pointer;
