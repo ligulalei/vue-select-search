@@ -4,12 +4,14 @@
     :value='searchValue'
     @input="searchValue = $event.target.value"
     @focus="openOptions"
+    @blur="blurInput"
     />
     <div class="showOptionList"
          :style='optionStyle'
     >
     <template v-for="(option,index) in showOptions">
         <div class="option" 
+              @mousedown="mousedownItem"
               @click.stop="selectOption(option)"
               :key="index">
             {{option.value}}-{{option.text}}
@@ -25,7 +27,8 @@ export default {
   data () {
     return {
       searchValue: '',
-      showOption: false
+      showOption: false,
+      mousedownState: false
     }
   },
   watch: {
@@ -50,6 +53,7 @@ export default {
   methods: {
     openOptions () {
       this.showOption = true
+      this.mousedownState = false
     },
     hideOptions () {
       this.showOption = false
@@ -58,6 +62,15 @@ export default {
       console.log('-----------')
       this.searchValue = option.value
       this.hideOptions()
+    },
+    blurInput () {
+      // this.hideOptions()
+      if (!this.mousedownState) {
+        this.hideOptions()
+      }
+    },
+    mousedownItem () {
+      this.mousedownState = true
     }
   },
   created () {
