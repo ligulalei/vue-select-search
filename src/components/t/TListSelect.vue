@@ -17,6 +17,9 @@
             {{option.value}}-{{option.text}}
         </div>
     </template>
+    <div v-if="showOptions.length<=0" class="noResult">
+      暂无数据
+    </div>
     </div>
  </div>
 </template>
@@ -74,7 +77,7 @@ export default {
     }
   },
   created () {
-    console.log('--------t------------')
+    console.log('--------tttttt------------')
   }
 }
 </script>
@@ -106,5 +109,10 @@ export default {
 }
 .showOptionList .option:hover{
   background: rgba(0,0,0,0.1);
+}
+.noResult{
+  height:200px;
+  text-align:center;
+  color:#ccc;
 }
 </style>
