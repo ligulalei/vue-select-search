@@ -95,6 +95,9 @@ export default {
   height:30px;
   border: 1px solid #ccc;
 }
+.selectdropdown:hover input,.selectdropdown input:focus{
+  border:1px solid #40a9ff;
+}
 .showOptionList{
   max-height:200px;
   height:auto;
