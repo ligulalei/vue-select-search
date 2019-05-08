@@ -31,7 +31,8 @@ export default {
                 { value: 'r', text: 'option text' },
                 { value: 's', text: 'option text' },
                 { value: 't', text: 'option text' },
-                { value: 'u', text: 'option text' }
+                { value: 'u', text: 'option text' },
+                { value: 'v', text: 'option text' }
       ]
     }
   },
