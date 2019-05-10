@@ -34,7 +34,17 @@ export default {
                 { value: 'u', text: 'option text' },
                 { value: 'v', text: 'option text' },
                 { value: 'w', text: 'option text' },
-                { value: 'x', text: 'option text' }
+                { value: 'x', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' },
+                { value: 'y', text: 'option text' }
       ]
     }
   },
