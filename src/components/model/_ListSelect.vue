@@ -33,7 +33,8 @@ export default {
                 { value: 't', text: 'option text' },
                 { value: 'u', text: 'option text' },
                 { value: 'v', text: 'option text' },
-                { value: 'w', text: 'option text' }
+                { value: 'w', text: 'option text' },
+                { value: 'x', text: 'option text' }
       ]
     }
   },
